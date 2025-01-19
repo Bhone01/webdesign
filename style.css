@@ -31,7 +31,7 @@ section {
     height: 110vh;
     width: 500vh;
     /* images Change */
-    border: 1px solid brown;
+    border: 1px solid gold;
     box-shadow: inset 0 0 5px yellowgreen;
     border-radius: 20px;
     backdrop-filter: blur(500px);
