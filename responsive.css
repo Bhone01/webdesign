@@ -1,0 +1,165 @@
+
+@media (max-width: 425px) {
+    header {
+        flex-direction: column;
+        gap:20%;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-cta-btn {
+        width: 300%;
+        margin: 0 auto 20%;
+        display: block;
+    }
+    .section-wrap {
+        overflow: visible;
+        height: auto;
+        width: 90%;
+        padding: 20px;
+        margin: 50px 15px;
+    }
+
+    section {
+        height: auto;
+
+    }
+    .hero-content {
+        grid-template-columns: 1fr;
+    }
+    .main-text {
+        font-family: 4rem;
+        margin-top: 60px;
+
+    }
+    .sub-text {
+        font-size: 1rem;
+    }
+    .hero-cta-btn {
+        margin-bottom: 24px;
+    }
+
+    .right img {
+        margin-top: 50px;
+    }
+    .section-btn {
+        margin-bottom: 100px;
+    }
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap:5px;
+    }
+    card {
+        margin:10px 0;
+
+    }
+    .section-title {
+        margin-top:50px ;
+    }
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+    .contact .right img {
+        width: 100%;
+        margin: 100px 10px 50px;
+    }
+    form button {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    
+   
+    header {
+        flex-direction: column;
+        gap:10px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-cta-btn {
+        width: 500px;
+        height: 50px;
+        border-radius: 35px;
+        margin: 0 auto 20px;
+        display: block;
+    }
+    .section-wrap {
+        overflow: visible;
+        margin: 50px auto;
+        height: auto;
+        width: 80%;
+        padding: 50px;
+    }
+    /* sir */
+    
+    /* sir */
+    #hero {
+        margin-top: 100vh;
+    }
+    /* sir */
+    .about {
+        margin-top:80vh;
+        
+    }
+    /* sir */
+    .project {
+        margin-top:50vh;
+    }
+    /* sir */
+    .contact {
+            margin-top: 80vh;
+            background-color: gold;
+    }
+    /* sir */
+/* sir */
+    .footer {
+        margin-top: 79vh;
+    }
+/* sir */
+    .section {
+        height: auto;
+    }
+    .hero-content {
+        grid-template-columns: 1fr;
+    }
+    .main-text {
+        font-size: 4rem;
+        margin-top: 60px;
+    }
+    .sub-text {
+        font-size: 1rem;
+    }
+    .header-cta-btn {
+        margin-bottom: 100px;
+
+    }
+    .section-btn {
+        margin-bottom: 100px ;
+    }
+    .project-grid {
+        grid-template-columns: 1fr 1fr;
+        gap:30px;
+    }
+    .card {
+        margin: 0;
+
+    }
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+    .contact .right img {
+        width:90px;
+        margin: 100px 10px 80px;
+    }
+    form button {
+        margin-bottom: 50px;
+    }
+    
+}
